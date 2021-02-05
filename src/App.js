@@ -26,10 +26,11 @@ function App() {
             <input
               type="checkbox"
               // checked={false}
-              onClick={() => {
+              onClick={(event) => {
                 // lors du click sur la checkbox, la valeur du check change pour faire changer l'aspect de la tache
                 !check ? setCheck(true) : setCheck(false);
                 check ? setColor("noLine") : setColor("line");
+                console.log(event);
               }}
             />
 
