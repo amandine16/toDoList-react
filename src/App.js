@@ -15,9 +15,8 @@ function App() {
   return (
     <div className="App">
       {maListe.map((elem, index) => {
-        {
-          /* Affiche les éléments de ma liste dynamiquement (boucle) */
-        }
+        /* Affiche les éléments de ma liste dynamiquement (boucle) */
+
         return (
           // Une tâche
           <div className="oneTask" key={index}>
